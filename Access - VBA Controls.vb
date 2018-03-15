@@ -32,7 +32,6 @@ End Sub
 '
 ' Use this coe to create mutipe buttons
 ' in your access or
-' Penenue (2018)
 '
 Sub create_NewButtons()
 	'Set array
