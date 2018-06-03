@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<styling>
+	<version code="Nakamura" version="1.0"/>
+	<date release="01/12/2017"/>
+	<sheets>
+		<name>
+			<sheetone id="Sheet1"/>
+			<sheettwo id="Sheet2"/>
+		</name>
+		<lockcells status="True"/>
+		<fonts>
+			<font id="Primary" size="12" color="fff" align="textAlignCenter" name="PT Sans"/>
+			<font id="Secondary" size="12" color="fff" align="textAlignCenter" name="Myriad Pro"/>
+			<font id="Alternative" size="12" color="fff" align="textAlignCenter" name="Arial"/>
+			<fontpath state="false">
+				<path>C:\Users\{}\Downloads\PT Sans</path>
+			</fontpath>
+		</fonts>
+	</sheets>
+</styling>

@@ -1,0 +1,1 @@
+rs.FindFirst "[TourCode] LIKE" & "'" & recordName & "'"
