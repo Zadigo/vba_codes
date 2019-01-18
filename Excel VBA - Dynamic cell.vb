@@ -3,6 +3,7 @@ Private Sub Worksheet_SelectionChange(ByVal Target As Range)
     Dim current_cell_address As String
     Dim previous_cell As Range
     
+    'Store the previous cell address
     Set previous_cell = Range("A1")
     
     current_cell_address = ActiveCell.Address
