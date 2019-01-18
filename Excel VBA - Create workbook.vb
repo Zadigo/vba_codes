@@ -1,5 +1,8 @@
 Sub create_new_workbook()
     Application.ScreenUpdating = False
+    'Avoids showing display alerts such
+    'prompts to the person running the macro
+    Application.DisplayAlerts = False
     
     Dim wb As Workbook
     Dim wk As Worksheet
@@ -17,4 +20,5 @@ Sub create_new_workbook()
     ActiveWorkbook.Close
     
     Application.ScreenUpdating = True
+    Application.DisplayAlerts = True
 End Sub
