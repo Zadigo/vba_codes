@@ -14,7 +14,7 @@ Sub create_new_workbook()
     'Do something with the sheets
     wk.Name = "Kendall Jenner"
     wk.Tab.Color = RGB(205, 92, 92)
-    wk.SaveAs Filename:="C:\Users\Pende\Downloads\" + "test.xlsx"
+    wk.SaveAs Filename:="C:\Users\...\Downloads\" + "test.xlsx"
     
     'Close workbook
     ActiveWorkbook.Close
